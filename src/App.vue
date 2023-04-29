@@ -1,26 +1,30 @@
 <script>
 // import HelloWorld from './components/HelloWorld.vue'
+import chatCore from '../chatCore/index.js'
 export default {
   data() {
     return {
       userMassage: '',
       chatText: 'extext',
-      lastChatText: '',
+      chatHistory: '',
       showingChatTextInfo: '',
     }
   },
 
   methods: {
     submitChat() {
-      this.chatText += '\n'+this.userMassage;
+      chatCore.enterMassage(this.userMassage);
+      this.chatText = chatCore.getChatText();
+      // this.chatText += '\n'+this.userMassage;
       this.userMassage = '';
     },
     submitLastChat() {
-      this.chatText = this.lastChatText;
-      this.lastChatText = '';
+      chatCore.rebildChatMemory(this.chatHistory);
+      this.chatText = chatCore.getChatText();
+      this.chatHistory = '';
     },
     showChatInfo() {
-      this.showingChatTextInfo = this.chatText;
+      this.showingChatTextInfo = chatCore.getChatHistory();
     },
 
   },
@@ -40,7 +44,7 @@ export default {
     // coming soon //
     <hr>
     <p class="p-2">text input for last chat info:</p>
-    <textarea v-model="lastChatText" cols="30" rows="10" class="p-2  rounded-lg"></textarea>
+    <textarea v-model="chatHistory" cols="30" rows="10" class="p-2  rounded-lg"></textarea>
     <br>
     <button @click.left="submitLastChat" type="button" class="px-3 py-1 m-2  border border-slate-400 rounded-md hover:bg-slate-200 active:bg-slate-500">submit last chat info</button>
     <hr>
