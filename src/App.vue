@@ -11,6 +11,10 @@ export default {
     }
   },
 
+  mounted() {
+    
+  },
+
   methods: {
     submitChat() {
       chatCore.enterMassage(this.userMassage);
