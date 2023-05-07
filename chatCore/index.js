@@ -2,8 +2,11 @@ let chatMemory = {
     mem: [],
 
 };
+
 function isDeleteRuleCommand(words) {
-    
+    // let isControlWords = ;
+    // let isControlWordsOnRightPlace = ;
+    return isControlWords && isControlWordsOnRightPlace;
 }
 function isAddRuleCommand(words) {
     
@@ -19,11 +22,7 @@ export default {
 
     enterMassage(userMassage) {
         chatMemory.mem += 'hoz: ' + userMassage;
-        let words = userMassage.split(' ');
-        words = words.filter(function(item, index, array) {
-            if (item === '') return false;
-            return true;
-        });
+        // let words = userMassage.match(/\S+/ig);
         if (isDeleteRuleCommand(words)) {
             
         } else if (isAddRuleCommand(words)) {
