@@ -47,12 +47,14 @@ export default {
     },
 
     enterMassage(userMassage) {
-        chatMemory.mem += 'hoz: ' + userMassage;
+        chatMemory.mem.push({
+            speaker: 'user',
+            massage: userMassage,
+        })
         let answer = null;
         let oneSpaceUserMassage = userMassage.replace(/\s+/,' ').replace(/^ | $/,'');
         if (isCommand(oneSpaceUserMassage, 'deleteRule')) {
-            let ruleIndex = chatMemory.rules.length - 1;
-            while (ruleIndex >= 0) {
+            for (let ruleIndex = chatMemory.rules.length - 1; ruleIndex >= 0; ruleIndex--) {
                 let isCoincidenceOfCondition = (
                     chatMemory.rules[ruleIndex].condition === oneSpaceUserMassage.match(/(?<=^на ).+(?= не говор(и$|и ))/)[0]
                 );
@@ -63,17 +65,38 @@ export default {
                 if (isCoincidenceOfRule) {
                     chatMemory.rules.splice(ruleIndex, 1);
                 }
-                ruleIndex -= 1;
             }
             answer = 'понял';
         } else if (isCommand(oneSpaceUserMassage, 'addRule')) {
-            
+            chatMemory.rules.push({
+                condition: oneSpaceUserMassage.match(/(?<=^на ).+(?= говор(и$|и ))/)[0],
+                action: oneSpaceUserMassage.match(/(?<= говори ).*.$/)[0] || '',
+            })
+            answer = 'понял';
         } else {
-            
+            for (let ruleIndex = 0; ruleIndex <= chatMemory.rules.length - 1; ruleIndex++) {
+                if (chatMemory.rules[ruleIndex].condition === oneSpaceUserMassage) {
+                    if (answer === null) {
+                        answer = chatMemory.rules[ruleIndex].action;
+                    } else {
+                        answer += ' ' + chatMemory.rules[ruleIndex].action;
+                    }
+                }
+            }
         }
-        
+        if (answer === null) {
+            answer = '?'
+        }
+        chatMemory.mem.push({
+            speaker: 'butler',
+            massage: answer,
+        })
     },
     getChatText() {
-
+        return chatMemory.mem.reduce((chatText, memItem, memItemIndex) => {
+            chatText += '\n' + memItem.speaker + ': ' + memItem.massage;
+            if (memItemIndex === 0) chatText = chatText.slice(1);
+            return chatText;
+        }, '')
     },
 }
