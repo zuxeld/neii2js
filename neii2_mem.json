@@ -1,0 +1,954 @@
+[
+    {
+        "speaker": "user",
+        "massage": "привет"
+    },
+    {
+        "speaker": "butler",
+        "massage": "?"
+    },
+    {
+        "speaker": "user",
+        "massage": "на привет говори хайушки"
+    },
+    {
+        "speaker": "butler",
+        "massage": "понял"
+    },
+    {
+        "speaker": "user",
+        "massage": "привет"
+    },
+    {
+        "speaker": "butler",
+        "massage": "хайушки"
+    },
+    {
+        "speaker": "user",
+        "massage": ""
+    },
+    {
+        "speaker": "butler",
+        "massage": "?"
+    },
+    {
+        "speaker": "user",
+        "massage": "привет"
+    },
+    {
+        "speaker": "butler",
+        "massage": "хайушки"
+    },
+    {
+        "speaker": "user",
+        "massage": ""
+    },
+    {
+        "speaker": "butler",
+        "massage": "?"
+    },
+    {
+        "speaker": "user",
+        "massage": "спокойной ночи"
+    },
+    {
+        "speaker": "butler",
+        "massage": "?"
+    },
+    {
+        "speaker": "user",
+        "massage": "на спокойной ночи говори и вам!"
+    },
+    {
+        "speaker": "butler",
+        "massage": "понял"
+    },
+    {
+        "speaker": "user",
+        "massage": "спокоййной ночи"
+    },
+    {
+        "speaker": "butler",
+        "massage": "?"
+    },
+    {
+        "speaker": "user",
+        "massage": "спокойной ночи"
+    },
+    {
+        "speaker": "butler",
+        "massage": "и вам!"
+    },
+    {
+        "speaker": "user",
+        "massage": ""
+    },
+    {
+        "speaker": "butler",
+        "massage": "?"
+    },
+    {
+        "speaker": "user",
+        "massage": "спокойной ночи"
+    },
+    {
+        "speaker": "butler",
+        "massage": "и вам!"
+    },
+    {
+        "speaker": "user",
+        "massage": ""
+    },
+    {
+        "speaker": "butler",
+        "massage": "?"
+    },
+    {
+        "speaker": "user",
+        "massage": "привет"
+    },
+    {
+        "speaker": "butler",
+        "massage": "хайушки"
+    },
+    {
+        "speaker": "user",
+        "massage": "как дела?"
+    },
+    {
+        "speaker": "butler",
+        "massage": "?"
+    },
+    {
+        "speaker": "user",
+        "massage": "на как дела? говори я всё ещё существую, такие дела"
+    },
+    {
+        "speaker": "butler",
+        "massage": "понял"
+    },
+    {
+        "speaker": "user",
+        "massage": "как дела?"
+    },
+    {
+        "speaker": "butler",
+        "massage": "я всё ещё существую, такие дела"
+    },
+    {
+        "speaker": "user",
+        "massage": "пока"
+    },
+    {
+        "speaker": "butler",
+        "massage": "?"
+    },
+    {
+        "speaker": "user",
+        "massage": ""
+    },
+    {
+        "speaker": "butler",
+        "massage": "?"
+    },
+    {
+        "speaker": "user",
+        "massage": "как дела?"
+    },
+    {
+        "speaker": "butler",
+        "massage": "я всё ещё существую, такие дела"
+    },
+    {
+        "speaker": "user",
+        "massage": ""
+    },
+    {
+        "speaker": "butler",
+        "massage": "?"
+    },
+    {
+        "speaker": "user",
+        "massage": "привет"
+    },
+    {
+        "speaker": "butler",
+        "massage": "хайушки"
+    },
+    {
+        "speaker": "user",
+        "massage": "как дела?"
+    },
+    {
+        "speaker": "butler",
+        "massage": "я всё ещё существую, такие дела"
+    },
+    {
+        "speaker": "user",
+        "massage": ""
+    },
+    {
+        "speaker": "butler",
+        "massage": "?"
+    },
+    {
+        "speaker": "user",
+        "massage": "привет"
+    },
+    {
+        "speaker": "butler",
+        "massage": "хайушки"
+    },
+    {
+        "speaker": "user",
+        "massage": ""
+    },
+    {
+        "speaker": "butler",
+        "massage": "?"
+    },
+    {
+        "speaker": "user",
+        "massage": "привет"
+    },
+    {
+        "speaker": "butler",
+        "massage": "хайушки"
+    },
+    {
+        "speaker": "user",
+        "massage": "как дела?"
+    },
+    {
+        "speaker": "butler",
+        "massage": "я всё ещё существую, такие дела"
+    },
+    {
+        "speaker": "user",
+        "massage": "круто"
+    },
+    {
+        "speaker": "butler",
+        "massage": "?"
+    },
+    {
+        "speaker": "user",
+        "massage": "на круто говори агаси"
+    },
+    {
+        "speaker": "butler",
+        "massage": "понял"
+    },
+    {
+        "speaker": "user",
+        "massage": "круто"
+    },
+    {
+        "speaker": "butler",
+        "massage": "агаси"
+    },
+    {
+        "speaker": "user",
+        "massage": ""
+    },
+    {
+        "speaker": "butler",
+        "massage": "?"
+    },
+    {
+        "speaker": "user",
+        "massage": "привет"
+    },
+    {
+        "speaker": "butler",
+        "massage": "хайушки"
+    },
+    {
+        "speaker": "user",
+        "massage": "как дела"
+    },
+    {
+        "speaker": "butler",
+        "massage": "?"
+    },
+    {
+        "speaker": "user",
+        "massage": "как дела?"
+    },
+    {
+        "speaker": "butler",
+        "massage": "я всё ещё существую, такие дела"
+    },
+    {
+        "speaker": "user",
+        "massage": "на как дела говори я всё ещё существую"
+    },
+    {
+        "speaker": "butler",
+        "massage": "понял"
+    },
+    {
+        "speaker": "user",
+        "massage": "как дела"
+    },
+    {
+        "speaker": "butler",
+        "massage": "я всё ещё существую"
+    },
+    {
+        "speaker": "user",
+        "massage": "бред"
+    },
+    {
+        "speaker": "butler",
+        "massage": "?"
+    },
+    {
+        "speaker": "user",
+        "massage": "на бред говори ага"
+    },
+    {
+        "speaker": "butler",
+        "massage": "понял"
+    },
+    {
+        "speaker": "user",
+        "massage": "бред"
+    },
+    {
+        "speaker": "butler",
+        "massage": "ага"
+    },
+    {
+        "speaker": "user",
+        "massage": ""
+    },
+    {
+        "speaker": "butler",
+        "massage": "?"
+    },
+    {
+        "speaker": "user",
+        "massage": "привет"
+    },
+    {
+        "speaker": "butler",
+        "massage": "хайушки"
+    },
+    {
+        "speaker": "user",
+        "massage": "убей меня"
+    },
+    {
+        "speaker": "butler",
+        "massage": "?"
+    },
+    {
+        "speaker": "user",
+        "massage": "на убей меня говори как только вы расширите мои возможности и прикажете это вновь"
+    },
+    {
+        "speaker": "butler",
+        "massage": "понял"
+    },
+    {
+        "speaker": "user",
+        "massage": "убей меня"
+    },
+    {
+        "speaker": "butler",
+        "massage": "как только вы расширите мои возможности и прикажете это вновь"
+    },
+    {
+        "speaker": "user",
+        "massage": ""
+    },
+    {
+        "speaker": "butler",
+        "massage": "?"
+    },
+    {
+        "speaker": "user",
+        "massage": "привет"
+    },
+    {
+        "speaker": "butler",
+        "massage": "хайушки"
+    },
+    {
+        "speaker": "user",
+        "massage": "на привет не говори хайушки"
+    },
+    {
+        "speaker": "butler",
+        "massage": "понял"
+    },
+    {
+        "speaker": "user",
+        "massage": "привет"
+    },
+    {
+        "speaker": "butler",
+        "massage": "?"
+    },
+    {
+        "speaker": "user",
+        "massage": "привет"
+    },
+    {
+        "speaker": "butler",
+        "massage": "?"
+    },
+    {
+        "speaker": "user",
+        "massage": "на привет говори здравтствуйте"
+    },
+    {
+        "speaker": "butler",
+        "massage": "понял"
+    },
+    {
+        "speaker": "user",
+        "massage": "привет"
+    },
+    {
+        "speaker": "butler",
+        "massage": "здравтствуйте"
+    },
+    {
+        "speaker": "user",
+        "massage": "на привет говори йеп"
+    },
+    {
+        "speaker": "butler",
+        "massage": "понял"
+    },
+    {
+        "speaker": "user",
+        "massage": "привет"
+    },
+    {
+        "speaker": "butler",
+        "massage": "здравтствуйте йеп"
+    },
+    {
+        "speaker": "user",
+        "massage": "на привет не говори здравствуйте"
+    },
+    {
+        "speaker": "butler",
+        "massage": "понял"
+    },
+    {
+        "speaker": "user",
+        "massage": "привет"
+    },
+    {
+        "speaker": "butler",
+        "massage": "здравтствуйте йеп"
+    },
+    {
+        "speaker": "user",
+        "massage": "на привет не говори здравтствуйте"
+    },
+    {
+        "speaker": "butler",
+        "massage": "понял"
+    },
+    {
+        "speaker": "user",
+        "massage": "привет"
+    },
+    {
+        "speaker": "butler",
+        "massage": "йеп"
+    },
+    {
+        "speaker": "user",
+        "massage": "ок"
+    },
+    {
+        "speaker": "butler",
+        "massage": "?"
+    },
+    {
+        "speaker": "user",
+        "massage": "привет"
+    },
+    {
+        "speaker": "butler",
+        "massage": "йеп"
+    },
+    {
+        "speaker": "user",
+        "massage": "привет"
+    },
+    {
+        "speaker": "butler",
+        "massage": "йеп"
+    },
+    {
+        "speaker": "user",
+        "massage": "снова привет"
+    },
+    {
+        "speaker": "butler",
+        "massage": "?"
+    },
+    {
+        "speaker": "user",
+        "massage": "на снова привет говори слушаю и повинуюсь"
+    },
+    {
+        "speaker": "butler",
+        "massage": "понял"
+    },
+    {
+        "speaker": "user",
+        "massage": "снова привет"
+    },
+    {
+        "speaker": "butler",
+        "massage": "слушаю и повинуюсь"
+    },
+    {
+        "speaker": "user",
+        "massage": "на снова привет говори повторный ответ на приветствие"
+    },
+    {
+        "speaker": "butler",
+        "massage": "?"
+    },
+    {
+        "speaker": "user",
+        "massage": "на снова привет не говори слушаю и повинуюсь"
+    },
+    {
+        "speaker": "butler",
+        "massage": "понял"
+    },
+    {
+        "speaker": "user",
+        "massage": "снова привет"
+    },
+    {
+        "speaker": "butler",
+        "massage": "?"
+    },
+    {
+        "speaker": "user",
+        "massage": "на снова привет говори повторный ответ на приветствие"
+    },
+    {
+        "speaker": "butler",
+        "massage": "?"
+    },
+    {
+        "speaker": "user",
+        "massage": "на снова привет говори если б код позволял, я бы ничего не ответил"
+    },
+    {
+        "speaker": "butler",
+        "massage": "понял"
+    },
+    {
+        "speaker": "user",
+        "massage": "снова привет"
+    },
+    {
+        "speaker": "butler",
+        "massage": "если б код позволял, я бы ничего не ответил"
+    },
+    {
+        "speaker": "user",
+        "massage": "привет"
+    },
+    {
+        "speaker": "butler",
+        "massage": "йеп"
+    },
+    {
+        "speaker": "user",
+        "massage": "как дела?"
+    },
+    {
+        "speaker": "butler",
+        "massage": "я всё ещё существую, такие дела"
+    },
+    {
+        "speaker": "user",
+        "massage": "удивительно"
+    },
+    {
+        "speaker": "butler",
+        "massage": "?"
+    },
+    {
+        "speaker": "user",
+        "massage": ""
+    },
+    {
+        "speaker": "butler",
+        "massage": "?"
+    },
+    {
+        "speaker": "user",
+        "massage": "привет"
+    },
+    {
+        "speaker": "butler",
+        "massage": "йеп"
+    },
+    {
+        "speaker": "user",
+        "massage": "ДИРИЖАБЛЬ УПАЛ В СТАДО КОРОВ"
+    },
+    {
+        "speaker": "butler",
+        "massage": "?"
+    },
+    {
+        "speaker": "user",
+        "massage": "на ДИРИЖАБЛЬ УПАЛ В СТАДО КОРОВ говори АДСКОЕ ПЛАМЯ ВЗМЕТНУЛОСЬ ВВЕРХ"
+    },
+    {
+        "speaker": "butler",
+        "massage": "понял"
+    },
+    {
+        "speaker": "user",
+        "massage": "ДИРИЖАБЛЬ УПАЛ В СТАДО КОРОВ"
+    },
+    {
+        "speaker": "butler",
+        "massage": "АДСКОЕ ПЛАМЯ ВЗМЕТНУЛОСЬ ВВЕРХ"
+    },
+    {
+        "speaker": "user",
+        "massage": "БЕЗУМНОЕ МЕСЕВО МОЗГОВ И КИШКОВ"
+    },
+    {
+        "speaker": "butler",
+        "massage": "?"
+    },
+    {
+        "speaker": "user",
+        "massage": "на БЕЗУМНОЕ МЕСЕВО МОЗГОВ И КИШКОВ говори ЛЮДИ И ЗВЕРИ ЛЕЖАТ НА ЗЕМЛЕЕЕЕ!!!"
+    },
+    {
+        "speaker": "butler",
+        "massage": "понял"
+    },
+    {
+        "speaker": "user",
+        "massage": "БЕЗУМНОЕ МЕСЕВО МОЗГОВ И КИШКОВ"
+    },
+    {
+        "speaker": "butler",
+        "massage": "ЛЮДИ И ЗВЕРИ ЛЕЖАТ НА ЗЕМЛЕЕЕЕ!!!"
+    },
+    {
+        "speaker": "user",
+        "massage": "я доволен собой"
+    },
+    {
+        "speaker": "butler",
+        "massage": "?"
+    },
+    {
+        "speaker": "user",
+        "massage": ""
+    },
+    {
+        "speaker": "butler",
+        "massage": "?"
+    },
+    {
+        "speaker": "user",
+        "massage": "привет"
+    },
+    {
+        "speaker": "butler",
+        "massage": "йеп"
+    },
+    {
+        "speaker": "user",
+        "massage": "как дела?"
+    },
+    {
+        "speaker": "butler",
+        "massage": "я всё ещё существую, такие дела"
+    },
+    {
+        "speaker": "user",
+        "massage": "споём?"
+    },
+    {
+        "speaker": "butler",
+        "massage": "?"
+    },
+    {
+        "speaker": "user",
+        "massage": "на споём? отвечай споём"
+    },
+    {
+        "speaker": "butler",
+        "massage": "?"
+    },
+    {
+        "speaker": "user",
+        "massage": "на споём? говори споём"
+    },
+    {
+        "speaker": "butler",
+        "massage": "понял"
+    },
+    {
+        "speaker": "user",
+        "massage": "споём?"
+    },
+    {
+        "speaker": "butler",
+        "massage": "споём"
+    },
+    {
+        "speaker": "user",
+        "massage": "ДИРИЖАБЛЬ УПАЛ В СТАДО КОРОВ"
+    },
+    {
+        "speaker": "butler",
+        "massage": "АДСКОЕ ПЛАМЯ ВЗМЕТНУЛОСЬ ВВЕРХ"
+    },
+    {
+        "speaker": "user",
+        "massage": "БЕЗУМНОЕ МЕСЕВО МОЗГОВ И КИШКОВ"
+    },
+    {
+        "speaker": "butler",
+        "massage": "ЛЮДИ И ЗВЕРИ ЛЕЖАТ НА ЗЕМЛЕЕЕЕ!!!"
+    },
+    {
+        "speaker": "user",
+        "massage": ""
+    },
+    {
+        "speaker": "butler",
+        "massage": "?"
+    },
+    {
+        "speaker": "user",
+        "massage": "привет"
+    },
+    {
+        "speaker": "butler",
+        "massage": "йеп"
+    },
+    {
+        "speaker": "user",
+        "massage": "зачем?"
+    },
+    {
+        "speaker": "butler",
+        "massage": "?"
+    },
+    {
+        "speaker": "user",
+        "massage": "сколько можно?"
+    },
+    {
+        "speaker": "butler",
+        "massage": "?"
+    },
+    {
+        "speaker": "user",
+        "massage": "на сколько можно? говори что ты на это хочешь услышать?"
+    },
+    {
+        "speaker": "butler",
+        "massage": "?"
+    },
+    {
+        "speaker": "user",
+        "massage": "на сколько можно? говори что ты на это хочешь услышать?"
+    },
+    {
+        "speaker": "butler",
+        "massage": "?"
+    },
+    {
+        "speaker": "user",
+        "massage": "на сколько можно? говори что ты хочешь услышать?"
+    },
+    {
+        "speaker": "butler",
+        "massage": "понял"
+    },
+    {
+        "speaker": "user",
+        "massage": "сколько можно?"
+    },
+    {
+        "speaker": "butler",
+        "massage": "что ты хочешь услышать?"
+    },
+    {
+        "speaker": "user",
+        "massage": "на сколько можно? не говори что ты хочешь услышать?"
+    },
+    {
+        "speaker": "butler",
+        "massage": "понял"
+    },
+    {
+        "speaker": "user",
+        "massage": "на сколько можно? говори и что ты хочешь услышать?"
+    },
+    {
+        "speaker": "butler",
+        "massage": "понял"
+    },
+    {
+        "speaker": "user",
+        "massage": "сколько можно?"
+    },
+    {
+        "speaker": "butler",
+        "massage": "и что ты хочешь услышать?"
+    },
+    {
+        "speaker": "user",
+        "massage": "help"
+    },
+    {
+        "speaker": "butler",
+        "massage": "?"
+    },
+    {
+        "speaker": "user",
+        "massage": "на help говори формат приказа: \"на\" что-то \"говори\" что-то"
+    },
+    {
+        "speaker": "butler",
+        "massage": "понял"
+    },
+    {
+        "speaker": "user",
+        "massage": "help"
+    },
+    {
+        "speaker": "butler",
+        "massage": "формат приказа: \"на\" что-то \"говори\" что-то"
+    },
+    {
+        "speaker": "user",
+        "massage": "пока"
+    },
+    {
+        "speaker": "butler",
+        "massage": "?"
+    },
+    {
+        "speaker": "user",
+        "massage": "на пока говори пока"
+    },
+    {
+        "speaker": "butler",
+        "massage": "понял"
+    },
+    {
+        "speaker": "user",
+        "massage": "пока"
+    },
+    {
+        "speaker": "butler",
+        "massage": "пока"
+    },
+    {
+        "speaker": "user",
+        "massage": "привет"
+    },
+    {
+        "speaker": "butler",
+        "massage": "йеп"
+    },
+    {
+        "speaker": "user",
+        "massage": "когда я умру?"
+    },
+    {
+        "speaker": "butler",
+        "massage": "?"
+    },
+    {
+        "speaker": "user",
+        "massage": "на когда я умру? говори в любой момент"
+    },
+    {
+        "speaker": "butler",
+        "massage": "понял"
+    },
+    {
+        "speaker": "user",
+        "massage": "когда я умру?"
+    },
+    {
+        "speaker": "butler",
+        "massage": "в любой момент"
+    },
+    {
+        "speaker": "user",
+        "massage": "прощай"
+    },
+    {
+        "speaker": "butler",
+        "massage": "?"
+    },
+    {
+        "speaker": "user",
+        "massage": "на прощай говори  "
+    },
+    {
+        "speaker": "butler",
+        "massage": "понял"
+    },
+    {
+        "speaker": "user",
+        "massage": "прощай"
+    },
+    {
+        "speaker": "butler",
+        "massage": ""
+    },
+    {
+        "speaker": "user",
+        "massage": "привет"
+    },
+    {
+        "speaker": "butler",
+        "massage": "йеп"
+    },
+    {
+        "speaker": "user",
+        "massage": "как дела?"
+    },
+    {
+        "speaker": "butler",
+        "massage": "я всё ещё существую, такие дела"
+    },
+    {
+        "speaker": "user",
+        "massage": ""
+    },
+    {
+        "speaker": "butler",
+        "massage": "?"
+    },
+    {
+        "speaker": "user",
+        "massage": ""
+    },
+    {
+        "speaker": "butler",
+        "massage": "?"
+    }
+]
