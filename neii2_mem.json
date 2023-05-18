@@ -950,5 +950,29 @@
     {
         "speaker": "butler",
         "massage": "?"
+    },
+    {
+        "speaker": "user",
+        "massage": "ДИРИЖАБЛЬ УПАЛ В СТАДО КОРОВ"
+    },
+    {
+        "speaker": "butler",
+        "massage": "АДСКОЕ ПЛАМЯ ВЗМЕТНУЛОСЬ ВВЕРХ"
+    },
+    {
+        "speaker": "user",
+        "massage": "БЕЗУМНОЕ МЕСЕВО МОЗГОВ И КИШКОВ"
+    },
+    {
+        "speaker": "butler",
+        "massage": "ЛЮДИ И ЗВЕРИ ЛЕЖАТ НА ЗЕМЛЕЕЕЕ!!!"
+    },
+    {
+        "speaker": "user",
+        "massage": "наконец-то"
+    },
+    {
+        "speaker": "butler",
+        "massage": "?"
     }
 ]
