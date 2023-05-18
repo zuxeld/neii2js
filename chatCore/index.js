@@ -1,6 +1,7 @@
 let chatMemory = {
     mem: [],
     rules: [],
+    lastOldChatItem: -1,
 };
 
 function isCommand(oneSpaceUserMassage, command) {
@@ -40,10 +41,50 @@ function isCommand(oneSpaceUserMassage, command) {
 export default {
     // rebild memory from chat history:
     rebildChatMemory(chatHistory) {
+        // old read for single rewrite old chat history:
+        // let singleStrings = chatHistory.split('\n');
+        // let singleStrings = chatHistory.match(/^.+$/mg);
+        // chatMemory.mem = singleStrings.map((singleString, singleStringIndex) => {
+        //     console.log(singleString);
+        //     let match = singleString.match(/(?<=([^:]+): ).*$/)
+        //     let speaker = (match[1] === 'hoz') ? 'user' : 'butler';
+        //     return {
+        //         speaker, 
+        //         massage: match[0],
+        //     }
+        // })
 
+        chatMemory.mem = JSON.parse(chatHistory);
+        chatMemory.lastOldChatItem = chatMemory.mem.length - 1;
+
+        chatMemory.rules = [];
+        let memWithUserMassages = chatMemory.mem.filter((memItem) => memItem.speaker === 'user');
+        memWithUserMassages.forEach((memItem) => {
+            let userMassage = memItem.massage;
+            if (isCommand(userMassage, 'deleteRule')) {
+                for (let ruleIndex = chatMemory.rules.length - 1; ruleIndex >= 0; ruleIndex--) {
+                    let isCoincidenceOfCondition = (
+                        chatMemory.rules[ruleIndex].condition === userMassage.match(/(?<=^на ).+(?= не говор(и$|и ))/)[0]
+                    );
+                    let isCoincidenceOfAction = (
+                        chatMemory.rules[ruleIndex].action === userMassage.match(/(?<= не говори ).*.$/)[0] || ''
+                    );
+                    let isCoincidenceOfRule = isCoincidenceOfCondition && isCoincidenceOfAction;
+                    if (isCoincidenceOfRule) {
+                        chatMemory.rules.splice(ruleIndex, 1);
+                    }
+                }
+            } else if (isCommand(userMassage, 'addRule')) {
+                chatMemory.rules.push({
+                    condition: userMassage.match(/(?<=^на ).+(?= говор(и$|и ))/)[0],
+                    action: userMassage.match(/(?<= говори ).*.$/)[0] || '',
+                })
+            } else return;
+        })
+        console.log(chatMemory.rules);
     },
     getChatHistory() {
-
+        return JSON.stringify(chatMemory.mem);
     },
 
     enterMassage(userMassage) {
@@ -94,6 +135,7 @@ export default {
     },
     getChatText() {
         return chatMemory.mem.reduce((chatText, memItem, memItemIndex) => {
+            if (memItemIndex <= chatMemory.lastOldChatItem) return '';
             chatText += '\n' + memItem.speaker + ': ' + memItem.massage;
             if (memItemIndex === 0) chatText = chatText.slice(1);
             return chatText;
