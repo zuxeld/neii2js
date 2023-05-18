@@ -30,6 +30,9 @@ export default {
     showChatInfo() {
       this.showingChatTextInfo = chatCore.getChatHistory();
     },
+    copyInClipboardChatInfo() {
+      navigator.clipboard.writeText(this.showingChatTextInfo);
+    },
 
   },
 }
@@ -53,6 +56,7 @@ export default {
     <button @click.left="submitLastChat" type="button" class="px-3 py-1 m-2  border border-slate-400 rounded-md hover:bg-slate-200 active:bg-slate-500">submit last chat info</button>
     <hr>
     <button @click.left="showChatInfo" type="button" class="px-3 py-1 m-2  border border-slate-400 rounded-md hover:bg-slate-200 active:bg-slate-500">show current chat info</button>
+    <button @click.left="copyInClipboardChatInfo" type="button" class="px-3 py-1 m-2  border border-slate-400 rounded-md hover:bg-slate-200 active:bg-slate-500">copy chat info in buffer</button>
     <p class="p-2  whitespace-pre-wrap">
       {{ showingChatTextInfo }}
     </p>
