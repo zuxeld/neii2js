@@ -31,12 +31,9 @@ function isCommand(oneSpaceUserMassage, command) {
 
         default:
             console.log('false command: '+command);
+            return false;
             break;
     }
-    
-    // let isControlWords = ;
-    // let isControlWordsOnRightPlace = ;
-    return isControlWords && isControlWordsOnRightPlace;
 }
 export default {
     // rebild memory from chat history:
